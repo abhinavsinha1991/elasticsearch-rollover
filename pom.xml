@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.marriot.poc.es</groupId>
-    <artifactId>ESRollover</artifactId>
+    <artifactId>elasticsearch-rollover</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
     <properties>
@@ -55,7 +55,7 @@
                     <archive>
                         <manifest>
                             <!--Main class path-->
-                            <mainClass>com.marriot.poc.es.ESTester</mainClass>
+                            <mainClass>com.es.rollover.poc.ESTester</mainClass>
                             <!--This is for refer jars [start]-->
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
@@ -83,7 +83,7 @@
                                         implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.marriot.poc.es.ESTester</mainClass>
+                                    <mainClass>com.es.rollover.poc.ESTester</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

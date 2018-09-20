@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.marriot.poc.es.crud.impl;
+package com.es.rollover.poc.crud.impl;
 
-import com.marriot.poc.es.crud.ElasticSearchCrud;
-import com.marriot.poc.es.crud.utils.ElasticSearchClient;
+import com.es.rollover.poc.crud.ElasticSearchCrud;
+import com.es.rollover.poc.crud.utils.ElasticSearchClient;
 import org.elasticsearch.action.admin.indices.alias.Alias;
 import org.elasticsearch.action.admin.indices.alias.get.GetAliasesRequest;
 import org.elasticsearch.action.admin.indices.create.CreateIndexRequest;

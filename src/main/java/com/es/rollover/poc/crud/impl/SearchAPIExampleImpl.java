@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.marriot.poc.es.crud.impl;
+package com.es.rollover.poc.crud.impl;
 
-import com.marriot.poc.es.crud.SearchAPIExample;
-import com.marriot.poc.es.crud.utils.ElasticSearchClient;
+import com.es.rollover.poc.crud.SearchAPIExample;
+import com.es.rollover.poc.crud.utils.ElasticSearchClient;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.unit.TimeValue;

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.marriot.poc.es;
+package com.es.rollover.poc;
 
-import com.marriot.poc.es.crud.ElasticSearchCrud;
-import com.marriot.poc.es.crud.SearchAPIExample;
-import com.marriot.poc.es.crud.impl.ElasticSearchCrudImpl;
-import com.marriot.poc.es.crud.impl.SearchAPIExampleImpl;
-import com.marriot.poc.es.crud.utils.ElasticSearchConstants;
+import com.es.rollover.poc.crud.ElasticSearchCrud;
+import com.es.rollover.poc.crud.SearchAPIExample;
+import com.es.rollover.poc.crud.impl.ElasticSearchCrudImpl;
+import com.es.rollover.poc.crud.impl.SearchAPIExampleImpl;
+import com.es.rollover.poc.crud.utils.ElasticSearchConstants;
 
 import java.util.Random;
 import java.util.logging.Logger;
