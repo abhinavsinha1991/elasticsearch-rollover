@@ -1,11 +1,16 @@
-# ElasticSearch CRUD
-In this Project I have done ElasticSearch CRUD (Create Read Update and Delete) operation using Java API. This project very helpful for beginners to learn.
+# ElasticSearch CRUD with Rollover
+
+This project focuses mainly on demo-ing rollover Java API usage with ElasticSearch.
 
 # Prerequisites
-Install <a href="https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.5.3.tar.gz">ElasticSearch-5.5.3</a>, and start the elasticSearch.
+
+Install <a href="https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.4.0.tar.gz">ElasticSearch-6.4.0</a>, and start the elasticSearch server.
 
 # Running
-Import this project as a Maven, and Building this project using maven goals (clean install). It will create target directory on our project Home path. within this target directory jar file will be create. Run that jar with command-line argument(s). The command line argument should be atleast one argument atmost nine argument The argument minimum value is 1 maximum value is 9. 
+
+Import this project as a maven project and build using mvn clean install. Either run directly from your IDE(by right clicking on ESTester main class and clicking in Run ESTester.main().You need to edit configuration to provide command line argument/s.
+The command line argument should be atleast one or atmost nine arguments in total. The argument minimum value is 1 maximum value is 9 and represents the below operations:
+
 * 1 - Create,
 * 2 - Read,
 * 3 - Update, 
