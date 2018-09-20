@@ -1,6 +1,6 @@
 # ElasticSearch CRUD with Rollover
 
-This project focuses mainly on demo-ing rollover Java API usage with ElasticSearch.
+This project focuses mainly on demo-ing with ElasticSearch Rollover Java API usage.
 
 # Prerequisites
 
