@@ -21,5 +21,5 @@ The command line argument should be atleast one or atmost nine arguments in tota
 * 8 - Search All and
 * 9 - Read Using Scroll.
 
-For Example: java -jar ESCrud-1.0.0.jar 1 3 (or) java -Xms250m -Xmx250m -jar ESCrud-1.0.0.jar 1 3
+For Example: java -jar elasticsearch-rollover-1.0.0.jar 1 3 (or) java -Xms250m -Xmx250m -jar elasticsearch-rollover-1.0.0.jar 1 3
 
